@@ -1,0 +1,270 @@
+.section-heading{
+  padding-bottom: 3%;
+  width: 40%;
+  line-height: 1.2;
+  font-size: 2.2rem;
+  margin: auto;
+}
+#title{
+  background-color: #FF5DA2;
+  padding-bottom:5%;
+  height: auto;
+  position: relative;
+}
+.first{
+  padding: 5% 10% 10% 10%;
+  overflow: hidden;
+}
+.first2{
+  align-items: center;
+  padding: 5% 0 5% 15%;
+}
+.image1{
+  align-items: center;
+  transform: rotate(25deg);
+  height: 100%;
+  width: 60%;
+}
+.first1{
+  margin: 6% 0;
+  align-items: center;
+  text-align: center;
+  padding: 0 10%;
+  font-family: cursive;
+}
+.heading1{
+  line-height: 1.8;
+  font-size: 2.6rem;
+  font-weight: bold;
+  text-align: left;
+  font-family: serif;
+  color: #fff;
+  margin: 12% 0% 15% 12%;
+}
+.nav-item
+{
+  width: 100px;
+}
+.nav-link{
+  font-weight: lighter;
+  color:white;
+}
+.navbar-brand{
+  font-family: Akronim;
+  margin-left: 10px;
+}
+/* features */
+#features
+{
+  padding: 10%;
+  background-color: white;
+  position: relative;
+  margin-top: -200px;
+}
+.fa-accusoft{
+  width: 30px;
+  height: 30px;
+  color: #ef8172;
+  transform: scale(2);
+  margin-bottom: 20px;
+}
+.fa-heart{
+  width: 30px;
+  height: 30px;
+  color: #ef8172;
+  transform: scale(2);
+  margin-bottom: 20px;
+}
+.fa-bullseye{
+  color:#ef8172;
+  width: 30px;
+  height: 30px;
+  transform: scale(2);
+  margin-bottom: 20px;
+}
+.col1
+{
+  text-align: center;
+  color: #818181;
+  padding: 5%;
+  font-family:serif;
+}
+.heading-features{
+  color: #000;
+  font-size: 1.5rem;
+}
+.fa-heart:hover,
+.fa-bullseye:hover,
+.fa-accusoft:hover{
+  color: #ff4c68
+}
+
+/* testimonial */
+#testimonials{
+  background-color: #FF5DA2;
+  text-align: center;
+  color: white;
+}
+.carousel-item{
+    padding: 7% 10%;
+}
+.heading-testimonial{
+padding: 0% 14% 5%;
+font-family: serif;
+line-height: 1.5;
+font-size: 2.6rem;
+}
+.image2{
+  border-radius: 100%;
+  height: 100px
+
+}
+
+/* press */
+#press{
+  background-color:  #FF5DA2;
+  text-align: center;
+  padding-bottom: 10% 7%;
+}
+.press-image{
+  height: 40px;
+  margin: 2%;
+  margin-bottom: 2%;
+}
+
+/* pricing */
+
+#pricing{
+  padding: 7% 10%;
+  text-align: center;
+}
+.pricing-col{
+  padding: 2.5%;
+}
+.price-col{
+  background-color: #EEEEEE;
+  height: 100%;
+}
+.price-col:hover{
+  transform: scale(1.02);
+  background-color: white;
+}
+
+/* cta call to action */
+
+#cta{
+text-align: center;
+background-color: #FF5DA2;
+padding: 7%;
+}
+.cta-button{
+  margin: 1%;
+  color: #fff;
+}
+
+
+/* footer */
+
+#footer{
+  text-align: center;
+  padding: 7% 10%;
+}
+.footer-icon{
+  margin-bottom: 20px;
+}
+.foot-icon{
+  margin-left: 1%;
+}
+
+.footer-para{
+  color: #6B4F4F;
+}
+
+
+/* adding mediaqueries */
+
+@media only screen and (max-width:980px) {
+
+   .first{
+     padding: 5%;
+   }
+  .first1{
+    text-align: center;
+    padding: 0% auto 5% auto;
+    font-family: cursive;
+  }
+  .heading1{
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  .image1{
+    transform: rotate(0deg);
+     height: 70%;
+     width: 70%;
+     margin-left: 8%;
+  }
+  #features
+  {
+    padding: 10%;
+    background-color: white;
+  }
+}
+
+@media only screen and (max-width:500px) {
+
+   .btn{
+     padding: 1%;
+   }
+   .first{
+     padding: 5%;
+   }
+   .section-heading{
+     padding-bottom: 5%;
+     width: 90%;
+     line-height: 1.5;
+     font-size: 2rem;
+     margin: auto;
+   }
+  .first1{
+    text-align: center;
+    padding: 2%;
+    font-family: cursive;
+  }
+  .heading1{
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2%;
+  }
+  .image1{
+    transform: rotate(0deg);
+     height: 70%;
+     width: 70%;
+     margin-left: 8%;
+  }
+
+/* features */
+
+  #features
+  {
+    padding: 10%;
+    background-color: white;
+  }
+
+/* testimonial */
+.carousel-item{
+    padding: 7% 10%;
+}
+.heading-testimonial{
+padding: 0% 8% 5%;
+font-family: serif;
+line-height: 1.5;
+font-size: 2.6rem;
+}
+.image2{
+  border-radius: 100%;
+  height: 100px;
+  margin: 3%;
+}
+
+}
